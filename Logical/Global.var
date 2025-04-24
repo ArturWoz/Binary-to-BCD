@@ -1,0 +1,19 @@
+VAR
+	(* Binary - input *)
+	B3 : BOOL;
+	B2 : BOOL;
+	B1 : BOOL;
+	B0 : BOOL;
+	
+	(* BCD - output *)
+	D4 : BOOL;
+	D3 : BOOL;
+	D2 : BOOL;
+	D1 : BOOL;
+	D0 : BOOL;
+	
+	(* Helper variables *)
+	H09 : BOOL; (* input in 0-9 *)
+	H1213 : BOOL; (* input in 12-13 *)
+	H89 : BOOL; (* input in 8-9 *)
+END_VAR
